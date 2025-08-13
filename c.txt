@@ -1,0 +1,9 @@
+# 创建分支和切换分支
+git branch newname
+git log --decorate
+
+切换：将HEAD指针切换到newname—— git checkout 分支名
+精简显式快照：git log --decorate --oneline
+图像化显式：git log --decorate --oneline --graph --all
+
+# 合并分支
